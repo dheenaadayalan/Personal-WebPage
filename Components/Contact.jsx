@@ -41,7 +41,7 @@ function Contact(props) {
               <div className="tw-mt-2">
                 <button className="btn btn-icon">
                   <a
-                    href="https://github.com/dheenadayala"
+                    href="https://github.com/dheenaadayalan"
                     style={{ all: "unset" }}
                   >
                     <i

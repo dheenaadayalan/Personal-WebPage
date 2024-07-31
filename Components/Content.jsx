@@ -11,37 +11,37 @@ function Content(props) {
   const weekend = [
     {
       name: "NASA_APOD",
-      git: "https://github.com/dheenadayala/NASA_APOD",
+      git: "https://github.com/dheenaadayalan/NASA_APOD",
       web: "https://day20nasa.netlify.app/",
     },
     {
       name: "Free_Dictionary",
-      git: "https://github.com/dheenadayala/Free-Dictionary",
+      git: "https://github.com/dheenaadayalan/Free-Dictionary",
       web: "https://day20dictionary.netlify.app/",
     },
     {
       name: "Shoping_cart",
-      git: "https://github.com/dheenadayala/Simple-React-Shoping-cart",
+      git: "https://github.com/dheenaadayalan/Simple-React-Shoping-cart",
       web: "https://day22shopingcart.netlify.app/",
     },
     {
       name: "PhoneBook_CRUD",
-      git: "https://github.com/dheenadayala/PhoneBook-CRUD",
+      git: "https://github.com/dheenaadayalan/PhoneBook-CRUD",
       web: "https://day30curd.netlify.app/",
     },
     {
       name: "Reset_Password",
-      git: "https://github.com/dheenadayala/ResetPassword-frontend",
+      git: "https://github.com/dheenaadayalan/ResetPassword-frontend",
       web: "https://day41forgetpassword.netlify.app/",
     },
     {
       name: "StudentMentor_apis",
-      git: "https://github.com/dheenadayala/Student-Mentor-apis",
+      git: "https://github.com/dheenaadayalan/Student-Mentor-apis",
       web: "https://day-39-express-db.onrender.com/",
     },
     {
       name: "CRUD_Formik",
-      git: "https://github.com/dheenadayala/CRUD-Formik",
+      git: "https://github.com/dheenaadayalan/CRUD-Formik",
       web: "https://day32crud.netlify.app/",
     },
   ];
@@ -76,7 +76,7 @@ function Content(props) {
                 <div className="tw-mt-3">
                   <button className="btn btn-icon">
                     <a
-                      href="https://github.com/dheenadayala/petlov-frontend"
+                      href="https://github.com/dheenaadayalan/petlov-frontend"
                       style={{ all: "unset" }}
                     >
                       <i
@@ -95,7 +95,7 @@ function Content(props) {
                   </button>
                   <button className="btn btn-icon">
                     <a
-                      href="https://github.com/dheenadayala/petlov-backend"
+                      href="https://github.com/dheenaadayalan/petlov-backend"
                       style={{ all: "unset" }}
                     >
                       <i className="fa fa-server fa-2x" aria-hidden="true"></i>
@@ -151,7 +151,7 @@ function Content(props) {
                     <div className="tw-mt-3 tw-flex tw-flex-row tw-justify-start tw-gap-6">
                       <div className="tw-flex tw-flex-col tw-text-center tw-cursor-pointer">
                         <a
-                          href="https://github.com/dheenadayala/homework_ai"
+                          href="https://github.com/dheenaadayalan/homework_ai"
                           style={{ all: "unset" }}
                           className="btn btn-icon"
                         >
