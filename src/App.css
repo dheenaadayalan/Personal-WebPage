@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.profil,
+a {
+  background-color: #393e46;
+  height: 100vh;
+  position: sticky;
+  top: 0%;
+  font-family: "Space Mono", monospace;
+  color: #00adb5;
+  /* padding: 50%,25px,50%,25px; */
+  align-content: center;
+}
+
+.profil-content {
+  text-align: start;
+}
+
+/* .body-main {
+  background-color: #eeeeee;
+  font-family: "Space Mono", monospace;
+  color: #222831;
+  height: 1000px;
+  position: relative;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+} */
+
+@media only screen and (max-width: 600px) {
+  .profil {
+    position: relative;
+  }
+  .profil-content {
+    text-align: center;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.btn-icon {
+  color: black;
+}
+
+.btn-icon :hover {
+  color: #eeeeee;
+}
+
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #eeeeee; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #222831; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid #eeeeee; /* creates padding around scroll thumb */
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.c-1 {
+  background: rgb(32, 141, 240);
+  background: linear-gradient(
+    156deg,
+    rgba(32, 141, 240, 1) 15%,
+    rgba(90, 232, 164, 1) 100%
+  );
+}
+
+.c-2 {
+  background: rgb(240, 231, 32);
+  background: linear-gradient(
+    156deg,
+    rgba(240, 231, 32, 1) 15%,
+    rgba(90, 232, 164, 1) 100%
+  );
+}
+
+.c-3 {
+  background: rgb(151, 86, 244);
+  background: linear-gradient(
+    156deg,
+    rgba(151, 86, 244, 1) 15%,
+    rgba(214, 200, 240, 1) 100%
+  );
+}
+
+.contact {
+  background-image: url("../Assets/bg.jpg");
+  background-size: contain;
+}
+
+.bg-contact {
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+}
+
+.contentApp::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+.contentApp::-webkit-scrollbar-track {
+  background: #eeeeee; /* color of the tracking area */
+}
+
+.contentApp::-webkit-scrollbar-thumb {
+  background-color: #222831; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid #eeeeee; /* creates padding around scroll thumb */
+}
+
+.contentweek::-webkit-scrollbar {
+  display: none;
+}
